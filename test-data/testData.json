@@ -1,0 +1,17 @@
+{
+  "login": {
+    "validUser": {
+      "email": "Admin",
+      "password": "admin123"
+    },
+    "invalidUser": {
+      "email": "InvalidUser",
+      "password": "WrongPassword"
+    }
+  },
+  "search": {
+    "validQuery": "Admin",
+    "invalidQuery": "xyzzzzzzz123",
+    "expectedResultCount": 1
+  }
+}
