@@ -10,6 +10,8 @@ class BasePage {
     await this.page.goto(`/${path}`);
   }
 
+  
+
   async waitForPageLoad() {
     await this.page.waitForLoadState('networkidle');
   }
